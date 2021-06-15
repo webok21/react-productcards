@@ -1,13 +1,21 @@
-h1 {
+.container {
+  text-align: center;
+}
+h2 {
   text-align: center;
 }
 .products-wrapper {
+  font-family: sans-serif;
+  font-weight: bold;
   display: inline-block;
   text-align: center;
+  margin: 20px 10px;
 }
 span {
+  font-size: 0.7em;
+  color: #fff;
   background: tomato;
-  /* border-radius: 0%; */
-  padding: 10%;
+  border-radius: 20px;
+  padding: 7px 30px;
   
 }

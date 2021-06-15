@@ -27,12 +27,14 @@ const productData = [
 function App() {
   return (
     <main>
-      <h1>SUPERSHOP</h1>
-      {productData.map((singleData, i) => <Products
-        key={i}
-        product={singleData}
-      />)
-      }
+      <h2>SUPERSHOP</h2>
+      <div className="container">
+        {productData.map((singleData, i) => <Products
+          key={i}
+          product={singleData}
+        />)
+        }
+      </div>
     </main>
   );
 }
